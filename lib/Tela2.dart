@@ -8,12 +8,13 @@ class Tela2 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Segundo Tela "rota tela 2"'),
+          centerTitle: true,
           backgroundColor: Colors.blue,
         ),
         body: Center(
           child: ElevatedButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/terceiro');
+              Navigator.pushNamed(context,'/terceira');
             },
             child: const Text('Levar para tela 3'),
           ),

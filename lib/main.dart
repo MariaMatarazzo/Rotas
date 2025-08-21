@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rotas_nomeadas/Tela1.dart';
-import 'tela1.dart';
-import 'tela2.dart';
-import 'tela3.dart';
+import 'Tela1.dart';
+import 'Tela2.dart';
+import 'Tela3.dart';
 
 void main() {
   runApp(const MyApp());
